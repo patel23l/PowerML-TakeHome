@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-md-3 bor">
+        <div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
+            <div id="table" class="example-box" cdkDrag>
+                Number Input
+            </div>
+            <div id="text" class="example-box" cdkDrag>
+                Text Input
+            </div>
+            <div id="button" class="example-box" cdkDrag>
+                Button
+            </div>
+            <div id="table" class="example-box" cdkDrag>
+                Image
+            </div>
+            <div id="table" class="example-box" cdkDrag>
+                Table
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9 bor">
+        <div id="example-boundary" cdkDrag>
+            <div id="boundary-box" cdkDrag>
+            </div>
+        </div>
+    </div>
+</div>
